@@ -1,0 +1,20 @@
+{
+	"keyword1":{ 
+		"name": "element",
+		"subsequent":{
+			"sub1": "xPath",
+			"sub2": "visible"
+		}
+	},
+	
+	"keyword2":{
+		"name": "add cookie",
+		"subsequent":{
+			"sub1": ["placeholder","name"],
+			"sub2": "with value",
+			"sub3": ["placeholder","value"],
+			"sub4": "and path",
+			"sub5": ["placeholder","path"]
+		}
+	}
+}
