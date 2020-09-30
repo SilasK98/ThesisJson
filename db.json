@@ -1,20 +1,41 @@
+
+
+
 {
-	"keyword1":{ 
-		"name": "element",
-		"subsequent":{
-			"sub1": "xPath",
-			"sub2": "visible"
-		}
-	},
+	"keyword1":{
+        "syntax": "| element | %1 | visible | %2 |",
+        "parameters":{
+            "%1": {
+                "value": "xpath",
+                "accept": ""
+            },
+            "%2": {
+                "value": "true,false",
+                "accept": "",
+		"options":[{
+	    		"o1": "true",
+		    	"o2": "false",
+	    	}]
+            }
+        }
+    },
 	
-	"keyword2":{
-		"name": "add cookie",
-		"subsequent":{
-			"sub1": ["placeholder","name"],
-			"sub2": "with value",
-			"sub3": ["placeholder","value"],
-			"sub4": "and path",
-			"sub5": ["placeholder","path"]
-		}
-	}
+	
+    "keyword2":{
+        "syntax": "| add cookie | %1 | with value | %2 | and path | %3 |",
+        "parameters":{
+            "%1": {
+                "value": "name",
+                "accept": ""
+            },
+            "%2": {
+                "value": "value",
+                "accept": ""
+            },
+            "%3": {
+                "value": "path",
+                "accept": ""
+            }
+        }
+    }
 }
