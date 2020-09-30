@@ -14,7 +14,7 @@
                 "accept": "",
 		"options":[{
 	    		"o1": "true",
-		    	"o2": "false",
+		    	"o2": "false"
 	    	}]
             }
         }
