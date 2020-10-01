@@ -23,7 +23,7 @@
 	
 	
     "keyword2":{
-	 "name": "add cookie",
+	 "name": "addCookie",
         "syntax": "|add cookie|%1|with value|%2|and path|%3|",
         "parameters":{
             "%1": {
