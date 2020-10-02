@@ -4,7 +4,7 @@
 {
 	"1":{
 	"name": "checkVisible",
-        "syntax": "|element|%1|visible|%2|",
+        "syntax": "|element|%1|visible becomes|%2|",
         "parameters":{
             "%1": {
                 "value": "xpath",
