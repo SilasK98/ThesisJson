@@ -92,7 +92,7 @@
         "syntax": "|get|%1|",
         "parameters":{
             "%1": {
-                "value": "xpath",
+                "value": "URL",
                 "accept": ""
             }
         }
