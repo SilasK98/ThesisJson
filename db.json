@@ -61,5 +61,30 @@
 		        "options":["true","false"]
             }
         }
+    },
+	"4":{
+        "name": "foo",
+        "syntax": "| foo | %1 | bar | %2 | baz | %3 | test | %4 |",
+        "parameters":{
+            "%1": {
+                "value": "xpath",
+                "accept": ""
+            },
+            "%2": {
+                "value": "true,false",
+                "accept": "",
+		        "options":["true","false"]
+            },
+            "%3": {
+                "value": "true,false,ignore",
+                "accept": "",
+		        "options":["true","false", "ignore"]
+            },
+            "%4": {
+                "value": "true,false",
+                "accept": "",
+		        "options":["true","false"]
+            }
+        }
     }
 }
