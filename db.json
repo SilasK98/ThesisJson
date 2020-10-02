@@ -2,7 +2,7 @@
 
 
 {
-	"keyword1":{
+	"1":{
 	"name": "checkVisible",
         "syntax": "|element|%1|visible|%2|",
         "parameters":{
@@ -19,7 +19,7 @@
     },
 	
 	
-    "keyword2":{
+    "2":{
 	 "name": "addCookie",
         "syntax": "|add cookie|%1|with value|%2|and path|%3|",
         "parameters":{
@@ -37,7 +37,7 @@
             }
         }
     },
-	"keyword3":{
+	"3":{
 	"name": "foo",
         "syntax": "| foo | %1 | bar | %2 | baz | %3 | test | %4 |",
         "parameters":{
