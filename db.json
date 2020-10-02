@@ -86,5 +86,20 @@
 		        "options":["true","false"]
             }
         }
-    }
+    },
+	"5":{
+	"name": "checkVisible",
+        "syntax": "|element|%1|visible|%2|",
+        "parameters":{
+            "%1": {
+                "value": "xpath",
+                "accept": ""
+            },
+            "%2": {
+                "value": "true,false",
+                "accept": "",
+		"options":["true","false"]
+            }
+        }
+    },
 }
