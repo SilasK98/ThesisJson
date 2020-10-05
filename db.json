@@ -64,7 +64,7 @@
     },
 	"4":{
         "name": "httpOnly",
-        "syntax": "|http only|"
+        "syntax":"|http only|"
     },
 	"5":{
 	"name": "getUrl",
