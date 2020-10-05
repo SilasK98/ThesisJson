@@ -10,8 +10,7 @@
                 "value": "xpath",
                 "accept": ""
             },
-            "%2": {
-               
+            "%2": {    
                 "accept": "",
 		"options":["true","false"]
             }
@@ -46,19 +45,16 @@
                 "accept": ""
             },
             "%2": {
-                "value": "true,false",
                 "accept": "",
-		        "options":["true","false"]
+		"options":["true","false"]
             },
             "%3": {
-                "value": "true,false,ignore",
                 "accept": "",
-		        "options":["true","false", "ignore"]
+		"options":["true","false", "ignore"]
             },
             "%4": {
-                "value": "true,false",
                 "accept": "",
-		        "options":["true","false"]
+		"options":["true","false"]
             }
         }
     },
