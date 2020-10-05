@@ -64,13 +64,7 @@
     },
 	"4":{
         "name": "httpOnly",
-        "syntax": "|http only|%1|",
-	"parameters":{
-		"%1": {
-                "value": "URL",
-                "accept": ""
-            }
-	}
+        "syntax": "|http only|"
     },
 	"5":{
 	"name": "getUrl",
