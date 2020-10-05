@@ -11,7 +11,7 @@
                 "accept": ""
             },
             "%2": {
-                "value": "true,false",
+               
                 "accept": "",
 		"options":["true","false"]
             }
