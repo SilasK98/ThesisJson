@@ -1,75 +1,30 @@
-
-
-
-{
-	"first":{
-	"name": "checkVisible",
+[
+    {
+        "name": "checkVisible",
         "syntax": "|element|%1|visible becomes|%2|",
         "parameters":{
             "%1": {
-                "value": "xpath",
-                "accept": ""
+                "value": "xpath"
             },
             "%2": {    
-                "accept": "",
-		"options":["true","false"]
+                "options":["true","false"]
             }
         }
     },
-	
-	
-    "2":{
-	 "name": "addCookie",
+
+    {
+        "name": "addCookie",
         "syntax": "|add cookie|%1|with value|%2|and path|%3|",
         "parameters":{
             "%1": {
-                "value": "name",
-                "accept": ""
+                "value": "name"
             },
             "%2": {
-                "value": "value",
-                "accept": ""
+                "value": "value"
             },
             "%3": {
-                "value": "path",
-                "accept": ""
-            }
-        }
-    },
-	"3":{
-	"name": "foo",
-        "syntax": "| foo | %1 | bar | %2 | baz | %3 | test | %4 |",
-        "parameters":{
-            "%1": {
-                "value": "xpath",
-                "accept": ""
-            },
-            "%2": {
-                "accept": "",
-		"options":["true","false"]
-            },
-            "%3": {
-                "accept": "",
-		"options":["true","false", "ignore"]
-            },
-            "%4": {
-                "accept": "",
-		"options":["true","false"]
-            }
-        }
-    },
-	"4":{
-        "name": "httpOnly",
-        "syntax": "|http only|"
-    },
-	"5":{
-	"name": "getUrl",
-        "syntax": "|get|%1|",
-        "parameters":{
-            "%1": {
-                "value": "URL",
-                "accept": ""
+                "value": "path"
             }
         }
     }
-}
+]
