@@ -6,7 +6,7 @@
             "name": "Cookies",
             "children":[
                 {
-                    "keyname": "checkVisible",
+                    "name": "checkVisible",
                     "syntax": "|element|%1|visible becomes|%2|",
                     "parameters":{
                         "%1": {
@@ -18,7 +18,7 @@
                     }
                 },
                 {
-                    "keyname": "addCookie",
+                    "name": "addCookie",
                     "syntax": "|add cookie|%1|with value|%2|and path|%3|",
                     "parameters":{
                         "%1": {
@@ -40,7 +40,7 @@
             "name": "Elements",
             "children":[
                 {
-                    "keyname": "checkVisible",
+                    "name": "checkVisible",
                     "syntax": "|element|%1|visible becomes|%2|",
                     "parameters":{
                         "%1": {
@@ -52,7 +52,7 @@
                     }
                 },
                 {
-                    "keyname": "addCookie",
+                    "name": "addCookie",
                     "syntax": "|add cookie|%1|with value|%2|and path|%3|",
                     "parameters":{
                         "%1": {
