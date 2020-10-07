@@ -2,7 +2,7 @@
 
 
 {
-	"1":{
+	"first":{
 	"name": "checkVisible",
         "syntax": "|element|%1|visible becomes|%2|",
         "parameters":{
