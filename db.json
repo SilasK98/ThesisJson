@@ -38,7 +38,7 @@
                 "name": "CookiesKat2",
                 "children":[{ 
                     "id": 121,
-                    "name": "esditCookie",
+                    "name": "editCookie",
                     "syntax": "|element|%1|visible becomes|%2|",
                     "parameters":{
                         "%1": {
