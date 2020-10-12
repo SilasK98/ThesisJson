@@ -1,12 +1,13 @@
-{
-"keywords":
-    [
-        {
+    {
+    "keywords":
+        [{
             "id": 1,
             "name": "Cookies",
-            "children":[
-                {   
-                    "id": 1.1,
+            "children":[{   
+                "id": 11,
+                "name": "CookiesKat1",
+                "children":[{ 
+                    "id": 111,
                     "name": "checkVisible",
                     "syntax": "|element|%1|visible becomes|%2|",
                     "parameters":{
@@ -15,34 +16,11 @@
                         },
                         "%2": {    
                             "options":["true","false"]
-                        }
+                        }        
                     }
                 },
-                {
-                    "id": 1.2,
-                    "name": "addCookie",
-                    "syntax": "|add cookie|%1|with value|%2|and path|%3|",
-                    "parameters":{
-                        "%1": {
-                            "value": "name"
-                        },
-                        "%2": {
-                            "value": "value"
-                        },
-                        "%3": {
-                            "value": "path"
-                        }
-                    }
-                }
-            ]
-        },
-
-        {
-            "id": 2,
-            "name": "Elements",
-            "children":[
-                {   
-                    "id": 2.1,
+                { 
+                    "id": 112,
                     "name": "foo",
                     "syntax": "|element|%1|visible becomes|%2|",
                     "parameters":{
@@ -51,26 +29,26 @@
                         },
                         "%2": {    
                             "options":["true","false"]
-                        }
+                        }        
                     }
-                },
-                {
-                    "id": 2.2,
-                    "name": "bar",
-                    "syntax": "|add cookie|%1|with value|%2|and path|%3|",
+                }]
+            },
+            {   
+                "id": 12,
+                "name": "CookiesKat2",
+                "children":[{ 
+                    "id": 121,
+                    "name": "checkVisible",
+                    "syntax": "|element|%1|visible becomes|%2|",
                     "parameters":{
                         "%1": {
-                            "value": "name"
+                            "value": "xpath"
                         },
-                        "%2": {
-                            "value": "value"
-                        },
-                        "%3": {
-                            "value": "path"
-                        }
+                        "%2": {    
+                            "options":["true","false"]
+                        }        
                     }
-                }
-            ]
-        }
-    ]
-}
+                }]
+            }]
+        }]
+    }
