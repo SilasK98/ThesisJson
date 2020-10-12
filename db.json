@@ -8,7 +8,7 @@
                 "name": "CookiesKat1",
                 "children":[{ 
                     "id": 111,
-                    "name": "checkVisible",
+                    "name": "addCookie",
                     "syntax": "|element|%1|visible becomes|%2|",
                     "parameters":{
                         "%1": {
@@ -38,7 +38,7 @@
                 "name": "CookiesKat2",
                 "children":[{ 
                     "id": 121,
-                    "name": "checkVisible",
+                    "name": "editCookie",
                     "syntax": "|element|%1|visible becomes|%2|",
                     "parameters":{
                         "%1": {
