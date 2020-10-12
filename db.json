@@ -6,6 +6,7 @@
             "name": "Cookies",
             "children":[
                 {   
+                    "id": 1.1,
                     "name": "checkVisible",
                     "syntax": "|element|%1|visible becomes|%2|",
                     "parameters":{
@@ -18,6 +19,7 @@
                     }
                 },
                 {
+                    "id": 1.2,
                     "name": "addCookie",
                     "syntax": "|add cookie|%1|with value|%2|and path|%3|",
                     "parameters":{
@@ -40,6 +42,7 @@
             "name": "Elements",
             "children":[
                 {   
+                    "id": 2.1,
                     "name": "foo",
                     "syntax": "|element|%1|visible becomes|%2|",
                     "parameters":{
@@ -52,6 +55,7 @@
                     }
                 },
                 {
+                    "id": 2.2,
                     "name": "bar",
                     "syntax": "|add cookie|%1|with value|%2|and path|%3|",
                     "parameters":{
