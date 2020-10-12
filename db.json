@@ -38,7 +38,7 @@
                 "name": "CookiesKat2",
                 "children":[{ 
                     "id": 121,
-                    "name": "baz",
+                    "name": "checkVisible",
                     "syntax": "|element|%1|visible becomes|%2|",
                     "parameters":{
                         "%1": {
@@ -50,5 +50,23 @@
                     }
                 }]
             }]
+        },
+        {
+            "id": 2,
+            "name": "Elements",
+            "children":[{ 
+                "id": 111,
+                "name": "checkVisible",
+                "syntax": "|element|%1|visible becomes|%2|",
+                "parameters":{
+                    "%1": {
+                        "value": "xpath"
+                    },
+                    "%2": {    
+                        "options":["true","false"]
+                    }        
+                }
+            }]
         }]
     }
+    
