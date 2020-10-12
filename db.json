@@ -37,10 +37,10 @@
 
         {
             "id": 2,
-            "name": "foo",
+            "name": "Elements",
             "children":[
                 {   
-                    "name": "checkVisible",
+                    "name": "foo",
                     "syntax": "|element|%1|visible becomes|%2|",
                     "parameters":{
                         "%1": {
