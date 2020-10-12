@@ -37,7 +37,7 @@
 
         {
             "id": 2,
-            "name": "Elements",
+            "name": "foo",
             "children":[
                 {   
                     "name": "checkVisible",
@@ -52,7 +52,7 @@
                     }
                 },
                 {
-                    "name": "addCookie",
+                    "name": "bar",
                     "syntax": "|add cookie|%1|with value|%2|and path|%3|",
                     "parameters":{
                         "%1": {
