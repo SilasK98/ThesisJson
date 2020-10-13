@@ -15,7 +15,6 @@
                             "value": "xpath"
                         },
                         "%2": {
-                            "value": "Wert",
                             "options":["true","false"]
                         }        
                     }
@@ -29,7 +28,6 @@
                             "value": "Cookie Name"
                         },
                         "%2": {
-                            "value": "Wert",
                             "options":["true","false","foo"]
                         }        
                     }
@@ -47,7 +45,6 @@
                             "value": "xpath"
                         },
                         "%2": {
-                            "value": "Wert",
                             "options":["true","false"]
                         }        
                     }
@@ -66,7 +63,6 @@
                         "value": "xpath"
                     },
                     "%2": {
-                        "value": "Wert",
                         "options":["true","false"]
                     }        
                 }
