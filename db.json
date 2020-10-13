@@ -25,10 +25,10 @@
                     "syntax": "|add Cookie|%1|with value|%2|",
                     "parameters":{
                         "%1": {
-                            "value": "xpath"
+                            "value": "Cookie Name"
                         },
                         "%2": {    
-                            "options":["true","false"]
+                            "options":["true","false","foo"]
                         }        
                     }
                 }]
