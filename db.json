@@ -22,7 +22,7 @@
                 { 
                     "id": 112,
                     "name": "foo",
-                    "syntax": "|element|%1|visible becomes|%2|",
+                    "syntax": "|add Cookie|%1|with value|%2|",
                     "parameters":{
                         "%1": {
                             "value": "xpath"
