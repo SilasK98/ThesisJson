@@ -9,14 +9,17 @@
                 "children":[{ 
                     "id": 111,
                     "name": "addCookie",
-                    "syntax": "|element|%1|visible becomes|%2|",
+                    "syntax": "|element|%1|visible becomes|%2|foo|%3|",
                     "parameters":{
                         "%1": {
                             "value": "xpath"
                         },
                         "%2": {
                             "options":["true","false"]
-                        }        
+                        },
+                        "%3": {
+                            "value": "test"
+                        } 
                     }
                 },
                 { 
