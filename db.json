@@ -59,15 +59,12 @@
             "name": "Elements",
             "children":[{ 
                 "id": 21,
-                "name": "checkVisible",
-                "syntax": "|element|%1|visible becomes|%2|",
+                "name": "addGlobal",
+                "syntax": "|add global|%1|",
                 "parameters":{
                     "%1": {
-                        "value": "xpath"
-                    },
-                    "%2": {
-                        "options":["true","false"]
-                    }        
+                        "keyword": "foo"
+                    }      
                 }
             }]
         }]
