@@ -63,7 +63,7 @@
                 "syntax": "|add global|%1|",
                 "parameters":{
                     "%1": {
-                        "keyword": "foo"
+                        "keyword": "attached"
                     }      
                 }
             }]
