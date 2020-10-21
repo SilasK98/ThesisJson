@@ -1,4 +1,4 @@
-    {
+{
     "keywords":
         [{
             "id": 1,
@@ -20,7 +20,8 @@
                         "%3": {
                             "value": "test"
                         } 
-                    }
+                    },
+                    "return": "true"
                 },
                 { 
                     "id": 112,
@@ -33,7 +34,8 @@
                         "%2": {
                             "options":["true","false","foo"]
                         }        
-                    }
+                    },
+                    "return": "false"
                 }]
             },
             {   
@@ -50,7 +52,8 @@
                         "%2": {
                             "options":["true","false"]
                         }        
-                    }
+                    },
+                    "return": "true"
                 }]
             }]
         },
@@ -65,7 +68,8 @@
                     "%1": {
                         "keyword": "attached"
                     }      
-                }
+                },
+                "return": "false"
             }]
         }]
     }
