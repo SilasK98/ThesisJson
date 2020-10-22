@@ -70,6 +70,20 @@
                     }      
                 },
                 "return": "false"
+            },
+            { 
+                "id": 22,
+                "name": "becomes",
+                "syntax": "|%1|becomes|%2|",
+                "parameters":{
+                    "%1": {
+                        "keyword": "attached"
+                    },
+                    "%2": {
+                        "value": "Expected Value"
+                    }          
+                },
+                "return": "false"
             }]
         }]
     }
