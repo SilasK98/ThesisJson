@@ -35,7 +35,7 @@
                             "options":["true","false","foo"]
                         }        
                     },
-                    "return": "false"
+                    "return": "true"
                 }]
             },
             {   
