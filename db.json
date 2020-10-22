@@ -77,7 +77,7 @@
                 "syntax": "|%1|becomes|%2|",
                 "parameters":{
                     "%1": {
-                        "keyword": "attached"
+                        "keyword": "previous"
                     },
                     "%2": {
                         "value": "Expected Value"
