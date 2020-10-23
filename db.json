@@ -21,7 +21,9 @@
                             "value": "test"
                         } 
                     },
-                    "return": "false"
+                    "return": "false",
+                    "table": ["head","false","body"],
+                    "belongsTo": "headKeywordName"
                 },
                 { 
                     "id": 112,
