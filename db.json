@@ -49,7 +49,7 @@
                     "syntax": "|element|%1|visible becomes|%2|",
                     "parameters":{
                         "%1": {
-                            "value": "xpath"
+                            "value": "Test1234"
                         },
                         "%2": {
                             "options":["true","false"]
