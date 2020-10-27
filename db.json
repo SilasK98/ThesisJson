@@ -88,7 +88,7 @@
                     }   
                 },
                 {
-                    "name": "becomes",
+                    "name": "becomes1",
                     "syntax": "|%1|becomes|%2|",
                     "parameters":{
                         "%1": {
