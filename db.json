@@ -21,7 +21,7 @@
                             "value": "test"
                         } 
                     },
-                    "return": "true"
+                    "return": "false"
                 },
                 { 
                     "id": 112,
@@ -45,7 +45,7 @@
                     "id": 121,
                     "name": "withRest",
                     "syntax": "|with rest|",
-                    "return": "true",
+                    "return": "false",
                     "tableElement": "true",
                     "tableItems": ["foo","bar"]
                 }]
@@ -67,7 +67,7 @@
             },
             { 
                 "id": 22,
-                "name": "Element is Visible",
+                "name": "isVisible",
                 "syntax": "|element|%1|visible|",
                 "parameters":{
                     "%1": {
@@ -75,7 +75,7 @@
                     }        
                 },
                 "return": "false",
-                 "supplement": [{
+                "supplement": [{
                     "name": "becomes",
                     "syntax": "|%1|becomes|%2|",
                     "parameters":{
@@ -102,6 +102,3 @@
             }]
         }]
     }
-
-
-
