@@ -21,7 +21,7 @@
                             "value": "test"
                         } 
                     },
-                    "return": "false"
+                    "return": "true"
                 },
                 { 
                     "id": 112,
