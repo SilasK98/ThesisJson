@@ -67,17 +67,15 @@
             },
             { 
                 "id": 22,
-                "name": "becomes",
-                "syntax": "|%1|becomes|%2|",
+                "name": "isVisible",
+                "syntax": "|element|%1|visible|",
                 "parameters":{
                     "%1": {
-                        "keyword": "previous"
-                    },
-                    "%2": {
-                        "value": "Expected Value"
-                    }          
+                        "value": "xPath, Id or Locator"
+                    }        
                 },
-                "return": "false"
+                "return": "false",
+                "supplement": []
             }]
         }]
     }
