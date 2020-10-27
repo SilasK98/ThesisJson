@@ -21,7 +21,7 @@
                             "value": "test"
                         } 
                     },
-                    "return": "false"
+                    "return": "true"
                 },
                 { 
                     "id": 112,
@@ -45,7 +45,7 @@
                     "id": 121,
                     "name": "withRest",
                     "syntax": "|with rest|",
-                    "return": "false",
+                    "return": "true",
                     "tableElement": "true",
                     "tableItems": ["foo","bar"]
                 }]
