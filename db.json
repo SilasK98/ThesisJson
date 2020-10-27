@@ -75,7 +75,15 @@
                     }        
                 },
                 "return": "false",
-                "supplement": []
+                "supplement": [{
+                    "name": "becomes",
+                    "syntax": "|%1|becomes|%2|",
+                    "parameters":{
+                        "%1": {
+                            "actionKeyword": "isVisible"
+                        }
+                    }   
+                }]
             }]
         }]
     }
