@@ -21,9 +21,7 @@
                             "value": "test"
                         } 
                     },
-                    "return": "false",
-                    "tableElement": "true",
-                    "tableItems": ["foo","bar"]
+                    "return": "false"
                 },
                 { 
                     "id": 112,
@@ -45,17 +43,11 @@
                 "name": "CookiesKat2",
                 "children":[{ 
                     "id": 121,
-                    "name": "editCookie",
-                    "syntax": "|element|%1|visible becomes|%2|",
-                    "parameters":{
-                        "%1": {
-                            "value": "Test1234"
-                        },
-                        "%2": {
-                            "options":["true","false"]
-                        }        
-                    },
-                    "return": "true"
+                    "name": "withRest",
+                    "syntax": "|with rest|",
+                    "return": "false",
+                    "tableElement": "true",
+                    "tableItems": ["foo","bar"]
                 }]
             }]
         },
