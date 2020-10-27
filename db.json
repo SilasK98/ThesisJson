@@ -22,8 +22,8 @@
                         } 
                     },
                     "return": "false",
-                    "table": ["head","false","body"],
-                    "belongsTo": "headKeywordName"
+                    "tableElement": "true",
+                    "tableItems": ["foo","bar"]
                 },
                 { 
                     "id": 112,
