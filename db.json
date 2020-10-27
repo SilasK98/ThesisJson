@@ -88,8 +88,8 @@
                     }   
                 },
                 {
-                    "name": "becomes1",
-                    "syntax": "|%1|becomes|%2|",
+                    "name": "is",
+                    "syntax": "|%1|is|%2|",
                     "parameters":{
                         "%1": {
                             "actionKeyword": "isVisible"
