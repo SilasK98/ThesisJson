@@ -56,18 +56,12 @@
             "name": "Elements",
             "children":[{ 
                 "id": 21,
-                "name": "show Titel as Message",
-                "syntax": "|show|%1|as|%2|after table|%3|",
+                "name": "addGlobal",
+                "syntax": "|add global|%1|",
                 "parameters":{
                     "%1": {
-                        "value": "Title"
-                    },
-                    "%2": {
-                        "value": "Message"
-                    },
-                    "%3": {
                         "keyword": "attached"
-                    }   
+                    }
                 },
                 "return": "false"
             },
