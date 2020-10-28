@@ -67,7 +67,7 @@
             },
             { 
                 "id": 22,
-                "name": "isVisible",
+                "name": "Element is Visible",
                 "syntax": "|element|%1|visible|",
                 "parameters":{
                     "%1": {
