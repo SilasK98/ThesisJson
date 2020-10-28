@@ -56,14 +56,14 @@
             "name": "Elements",
             "children":[{ 
                 "id": 21,
-                "name": "set dynamic Var",
-                "syntax": "|set|%1|%2|",
+                "name": "show after as",
+                "syntax": "|show after as|%1|%2|",
                 "parameters":{
                     "%1": {
-                        "value": "dynamic variable name"
+                        "keyword": "attached"
                     },
                     "%2": {
-                        "keyword": "attached"
+                        "keyword": "attached2"
                     }      
                 },
                 "return": "false"
