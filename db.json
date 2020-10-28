@@ -56,10 +56,13 @@
             "name": "Elements",
             "children":[{ 
                 "id": 21,
-                "name": "addGlobal",
-                "syntax": "|add global|%1|",
+                "name": "set dynamic Var",
+                "syntax": "|set|%1|%2|",
                 "parameters":{
                     "%1": {
+                        "value": "dynamic variable name"
+                    },
+                    "%2": {
                         "keyword": "attached"
                     }      
                 },
