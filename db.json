@@ -77,47 +77,48 @@
                 "return": "false",
                 "specialKeywords": ["becomes","is","contains"]
             }]
-        }]
-    },
+        }],
 
-
-{
-"specialKeywords": 
-    [{
-        "name": "becomes",
-        "syntax": "|%1|becomes|%2|",
-        "parameters":{
-            "%1": {
-                "actionKeyword": "parent keyword"
+        
+        "specialKeywords": 
+            [{
+                "name": "becomes",
+                "syntax": "|%1|becomes|%2|",
+                "parameters":{
+                    "%1": {
+                        "actionKeyword": "parent keyword"
+                    },
+                    "%2": {
+                        "options": ["true", "false"]
+                    }
+                }   
             },
-            "%2": {
-                "options": ["true", "false"]
-            }
-        }   
-    },
-    {
-        "name": "is",
-        "syntax": "|%1|is|%2|",
-        "parameters":{
-            "%1": {
-                "actionKeyword": "parent keyword"
+            {
+                "name": "is",
+                "syntax": "|%1|is|%2|",
+                "parameters":{
+                    "%1": {
+                        "actionKeyword": "parent keyword"
                         },
-            "%2": {
-                "options": ["true", "false"]
-            }
-        }
-    },
-    {
-        "name": "contains",
-        "syntax": "|%1|contains|%2|",
-        "parameters":{
-            "%1": {
-                "actionKeyword": "parent keyword"
-                        },
-            "%2": {
-                "value": "expected value"
-            }
-        }
-    }]
-}
+                    "%2": {
+                        "options": ["true", "false"]
+                    }
+                }
+            },
+            {
+                "name": "contains",
+                "syntax": "|%1|contains|%2|",
+                "parameters":{
+                    "%1": {
+                        "actionKeyword": "parent keyword"
+                    },
+                    "%2": {
+                        "value": "expected value"
+                    }
+                }
+            }]
+    }
+
+
+
 
