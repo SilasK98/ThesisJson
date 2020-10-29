@@ -75,7 +75,7 @@
                     }        
                 },
                 "return": "false",
-                "specialKeywords": ["becomes","is"]
+                "specialKeywords": ["becomes","is","contains"]
             }]
         }]
     }
