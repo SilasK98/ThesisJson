@@ -36,8 +36,7 @@
                             "options":["true","false","foo"]
                         }        
                     },
-                    "return": "true",
-                    "returnValue": "boolean"
+                    "return": "false"
                 }]
             },
             {   
