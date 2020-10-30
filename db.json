@@ -91,7 +91,8 @@
                         "actionKeyword": "parent keyword"
                     },
                     "%2": {
-                        "options": ["true", "false"]
+                        "options": ["true", "false"],
+                        "value": "expected value"
                     }
                 }   
             },
@@ -103,7 +104,8 @@
                         "actionKeyword": "parent keyword"
                         },
                     "%2": {
-                        "options": ["true", "false"]
+                        "options": ["true", "false"],
+                        "value": "expected value"
                     }
                 }
             },
@@ -115,6 +117,7 @@
                         "actionKeyword": "parent keyword"
                     },
                     "%2": {
+                        "options": ["true", "false"],
                         "value": "expected value"
                     }
                 }
