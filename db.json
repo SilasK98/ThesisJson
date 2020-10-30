@@ -78,6 +78,10 @@
                 "return": "true",
                 "returnValue": "boolean"
             }]
+        },
+        {
+            "id": 3,
+            "name": "Text Editor"
         }],
 
         
@@ -122,3 +126,7 @@
                 }
             }]
     }
+
+
+
+
