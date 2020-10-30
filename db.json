@@ -80,15 +80,7 @@
             },
             { 
                 "id": 23,
-                "name": "Test",
-                "syntax": "|element|%1|visible|",
-                "parameters":{
-                    "%1": {
-                        "value": "xPath, Id or Locator"
-                    }        
-                },
-                "return": "true",
-                "returnValue": "boolean"
+                "name": "Text Editor",
             }]
         }],
 
