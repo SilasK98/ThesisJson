@@ -21,7 +21,8 @@
                             "value": "test"
                         } 
                     },
-                    "return": "true"
+                    "return": "true",
+                    "returnValue": "String"
                 },
                 { 
                     "id": 112,
@@ -36,6 +37,7 @@
                         }        
                     },
                     "return": "true"
+                    "returnValue": "boolean"
                 }]
             },
             {   
@@ -75,6 +77,7 @@
                     }        
                 },
                 "return": "true"
+                "returnValue": "boolean"
             }]
         }],
 
