@@ -36,7 +36,7 @@
                             "options":["true","false","foo"]
                         }        
                     },
-                    "return": "true"
+                    "return": "true",
                     "returnValue": "boolean"
                 }]
             },
@@ -76,7 +76,7 @@
                         "value": "xPath, Id or Locator"
                     }        
                 },
-                "return": "true"
+                "return": "true",
                 "returnValue": "boolean"
             }]
         }],
