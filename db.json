@@ -74,8 +74,7 @@
                         "value": "xPath, Id or Locator"
                     }        
                 },
-                "return": "true",
-                "specialKeywords": ["becomes","is","contains"]
+                "return": "true"
             }]
         }],
 
