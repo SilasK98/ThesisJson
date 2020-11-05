@@ -44,7 +44,6 @@
                     "id": 121,
                     "name": "withRest",
                     "syntax": "|with rest|",
-                    "return": "false",
                     "tableElement": "true",
                     "tableItems": ["foo","bar"]
                 }]
