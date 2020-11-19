@@ -88,11 +88,10 @@
                 "syntax": "|%1|becomes|%2|",
                 "parameters":{
                     "%1": {
-                        "actionKeyword": "parent keyword"
+                        "label": "parent keyword"
                     },
                     "%2": {
-                        "options": ["true", "false"],
-                        "value": "expected value"
+                        "label": "Baz"
                     }
                 }   
             },
