@@ -82,7 +82,7 @@
             "syntax": "|add named|%1|%2|",
             "parameters":{
                 "%1": {
-                    "label": "xPath, Id or Locator"
+                    "label": "Name"
                 },
                 "%2": {
                     "keyword": "attached"
