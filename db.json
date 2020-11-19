@@ -12,13 +12,14 @@
                     "syntax": "|element|%1|visible becomes|%2|foo|%3|",
                     "parameters":{
                         "%1": {
-                            "value": "xpath"
+                            "label": "xpath"
                         },
                         "%2": {
+                            "label": "Wert:",
                             "options":["true","false"]
                         },
                         "%3": {
-                            "value": "test"
+                            "label": "test"
                         } 
                     },
                     "return": "String"
@@ -29,9 +30,10 @@
                     "syntax": "|add Cookie|%1|with value|%2|",
                     "parameters":{
                         "%1": {
-                            "value": "Cookie Name"
+                            "label": "Cookie Name"
                         },
                         "%2": {
+                            "label": "Wert:",
                             "options":["true","false","foo"]
                         }        
                     }
@@ -68,7 +70,7 @@
                 "syntax": "|element|%1|visible|",
                 "parameters":{
                     "%1": {
-                        "value": "xPath, Id or Locator"
+                        "label": "xPath, Id or Locator"
                     }        
                 },
                 "return": "boolean"
@@ -121,5 +123,3 @@
                 }
             }]
     }
-
-
