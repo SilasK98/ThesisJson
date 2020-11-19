@@ -67,7 +67,7 @@
                         "keyword": "attached"
                     }
                 },
-                "helpText": "Blabla help text"
+                "helpText": "Take the result of the action (or an instance of the class) and add it as a new global to the scope."
             },
             { 
                 "id": 22,
