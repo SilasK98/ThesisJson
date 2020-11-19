@@ -101,11 +101,10 @@
                 "syntax": "|%1|is|%2|",
                 "parameters":{
                     "%1": {
-                        "actionKeyword": "parent keyword"
+                        "label": "parent keyword"
                         },
                     "%2": {
-                        "options": ["true", "false"],
-                        "value": "expected value"
+                        "label": "Foo"
                     }
                 }
             },
@@ -114,11 +113,10 @@
                 "syntax": "|%1|contains|%2|",
                 "parameters":{
                     "%1": {
-                        "actionKeyword": "parent keyword"
+                        "label": "parent keyword"
                     },
                     "%2": {
-                        "options": ["true", "false"],
-                        "value": "expected value"
+                        "label": "Bar"
                     }
                 }
             }]
