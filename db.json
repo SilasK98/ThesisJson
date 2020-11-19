@@ -78,7 +78,16 @@
         },
         {
             "id": 3,
-            "name": "Text Editor"
+            "name": "addNamed",
+            "syntax": "|add named|%1|%2|",
+            "parameters":{
+                "%1": {
+                    "label": "xPath, Id or Locator"
+                },
+                "%2": {
+                    "keyword": "attached"
+                }          
+            },
         }],
 
         
@@ -120,5 +129,3 @@
                 }
             }]
     }
- 
-
