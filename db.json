@@ -39,7 +39,7 @@
                         }        
                     },
                     "helpText": "Blabla help text",
-                    "deprecated": "true"
+                    "deprecated": true
                 }]
             },
             {   
