@@ -22,7 +22,8 @@
                             "label": "test"
                         } 
                     },
-                    "returnType": "String"
+                    "returnType": "String",
+                    "helpText": "Blabla help text"
                 },
                 { 
                     "id": 112,
@@ -36,7 +37,9 @@
                             "label": "Wert:",
                             "options":["true","false","foo"]
                         }        
-                    }
+                    },
+                    "helpText": "Blabla help text",
+                    "deprecated": "true"
                 }]
             },
             {   
@@ -47,7 +50,8 @@
                     "name": "withRest",
                     "syntax": "|with rest|",
                     "tableElement": "true",
-                    "tableItems": ["foo","bar"]
+                    "tableItems": ["foo","bar"],
+                    "helpText": "Blabla help text"
                 }]
             }]
         },
@@ -62,7 +66,8 @@
                     "%1": {
                         "keyword": "attached"
                     }
-                }
+                },
+                "helpText": "Blabla help text"
             },
             { 
                 "id": 22,
@@ -73,7 +78,8 @@
                         "label": "xPath, Id or Locator"
                     }        
                 },
-                "returnType": "boolean"
+                "returnType": "boolean",
+                "helpText": "Blabla help text"
             }]
         },
         {
@@ -82,12 +88,13 @@
             "syntax": "|add named|%1|%2|",
             "parameters":{
                 "%1": {
-                    "label": "Name"
+                    "label": "xPath, Id or Locator"
                 },
                 "%2": {
                     "keyword": "attached"
                 }          
-            }
+            },
+            "helpText": "Blabla help text"
         }],
 
         
