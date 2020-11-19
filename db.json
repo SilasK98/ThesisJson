@@ -15,7 +15,7 @@
                             "label": "xpath"
                         },
                         "%2": {
-                            "label": "Wert:",
+                            "label": "DropDown Value:",
                             "options":["true","false"]
                         },
                         "%3": {
