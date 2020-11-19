@@ -22,7 +22,7 @@
                             "label": "test"
                         } 
                     },
-                    "return": "String"
+                    "returnType": "String"
                 },
                 { 
                     "id": 112,
@@ -73,7 +73,7 @@
                         "label": "xPath, Id or Locator"
                     }        
                 },
-                "return": "boolean"
+                "returnType": "boolean"
             }]
         },
         {
