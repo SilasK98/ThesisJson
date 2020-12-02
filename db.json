@@ -38,6 +38,7 @@
                             "options":["true","false","foo"]
                         }        
                     },
+                    "returnType": "Object",
                     "helpText": "Blabla help text",
                     "deprecated": true
                 }]
