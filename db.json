@@ -48,9 +48,10 @@
                 "name": "CookiesKat2",
                 "children":[{ 
                     "id": 121,
-                    "name": "withRest",
-                    "syntax": "|with rest|",
+                    "name": "setVariables",
+                    "syntax": "|set variables|",
                     "tableElement": "true",
+                    returnType: "SetVariableTraverse",
                     "tableItems": ["foo","bar"],
                     "helpText": "Blabla help text"
                 }]
