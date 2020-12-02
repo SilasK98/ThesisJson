@@ -51,7 +51,7 @@
                     "name": "setVariables",
                     "syntax": "|set variables|",
                     "tableElement": "true",
-                    returnType: "SetVariableTraverse",
+                    "returnType": "SetVariableTraverse",
                     "tableItems": ["foo","bar"],
                     "helpText": "Blabla help text"
                 }]
