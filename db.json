@@ -140,7 +140,7 @@
                     }
                 }
             }],
-        "TableBodyKeywords": 
+        "tableBodyKeywords": 
         [
             {
                 "name": "varName varValue",
