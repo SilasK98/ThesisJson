@@ -38,7 +38,6 @@
                             "options":["true","false","foo"]
                         }        
                     },
-                    "returnType": "Object",
                     "helpText": "Blabla help text",
                     "deprecated": true
                 }]
@@ -46,15 +45,17 @@
             {   
                 "id": 12,
                 "name": "CookiesKat2",
-                "children":[{ 
+                "children":[
+                    { 
                     "id": 121,
                     "name": "setVariables",
                     "syntax": "|set variables|",
                     "tableElement": "true",
                     "returnType": "SetVariableTraverse",
-                    "tableItems": ["foo","bar"],
+                    "tableItems": ["varName varValue","varName varValue comment"],
                     "helpText": "Blabla help text"
-                }]
+                    }
+                ]
             }]
         },
         {
@@ -66,6 +67,7 @@
                 "syntax": "|add global|%1|",
                 "parameters":{
                     "%1": {
+                        "label": "BlaBla",
                         "keyword": "attached"
                     }
                 },
@@ -93,6 +95,7 @@
                     "label": "xPath, Id or Locator"
                 },
                 "%2": {
+                    "label": "BlaBla",
                     "keyword": "attached"
                 }          
             },
@@ -136,5 +139,36 @@
                         "label": "Bar"
                     }
                 }
-            }]
+            }],
+        "TableBodyKeywords": 
+        [
+            {
+                "name": "varName varValue",
+                "syntax": "|%1|%2|",
+                "parameters":{
+                    "%1": {
+                        "label": "variable name"
+                    },
+                    "%2": {
+                        "label": "variable value"
+                    }
+                }   
+            },
+            {
+                "name": "varName varValue comment",
+                "syntax": "|%1|%2|%3|",
+                "parameters":{
+                    "%1": {
+                        "label": "variable name"
+                    },
+                    "%2": {
+                        "label": "variable value"
+                    },
+                    "%3": {
+                        "label": "comment"
+                    }
+                }   
+            }
+        ]
     }
+
