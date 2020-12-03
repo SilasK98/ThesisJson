@@ -50,7 +50,7 @@
                     "id": 121,
                     "name": "setVariables",
                     "syntax": "|set variables|",
-                    "tableElement": "true",
+                    "tableKeyword": "true",
                     "returnType": "SetVariableTraverse",
                     "tableItems": ["varName varValue","varName varValue comment"],
                     "helpText": "Blabla help text"
