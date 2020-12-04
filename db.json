@@ -4,10 +4,10 @@
             "id": 1,
             "name": "Cookies",
             "children":[{   
-                "id": 11,
+                "id": 1-1,
                 "name": "CookiesKat1",
                 "children":[{ 
-                    "id": 111,
+                    "id": 1-1-1,
                     "name": "addCookie",
                     "syntax": "|element|%1|visible becomes|%2|foo|%3|",
                     "parameters":{
@@ -26,7 +26,7 @@
                     "helpText": "Blabla help text"
                 },
                 { 
-                    "id": 112,
+                    "id": 1-1-2,
                     "name": "foo",
                     "syntax": "|add Cookie|%1|with value|%2|",
                     "parameters":{
@@ -43,11 +43,11 @@
                 }]
             },
             {   
-                "id": 12,
+                "id": 1-2,
                 "name": "CookiesKat2",
                 "children":[
                     { 
-                    "id": 121,
+                    "id": 1-2-1,
                     "name": "setVariables",
                     "syntax": "|set variables|",
                     "tableKeyword": true,
@@ -62,7 +62,7 @@
             "id": 2,
             "name": "Elements",
             "children":[{ 
-                "id": 21,
+                "id": 2-1,
                 "name": "addGlobal",
                 "syntax": "|add global|%1|",
                 "parameters":{
@@ -74,7 +74,7 @@
                 "helpText": "Take the result of the action (or an instance of the class) and add it as a new global to the scope."
             },
             { 
-                "id": 22,
+                "id": 2-2,
                 "name": "Element visible",
                 "syntax": "|element|%1|visible|",
                 "parameters":{
