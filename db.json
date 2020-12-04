@@ -1,13 +1,13 @@
 {
     "keywords":
         [{
-            "id": 1,
+            "id": "1",
             "name": "Cookies",
             "children":[{   
-                "id": 1-1,
+                "id": "1-1",
                 "name": "CookiesKat1",
                 "children":[{ 
-                    "id": 1-1-1,
+                    "id": "1-1-1",
                     "name": "addCookie",
                     "syntax": "|element|%1|visible becomes|%2|foo|%3|",
                     "parameters":{
@@ -26,7 +26,7 @@
                     "helpText": "Blabla help text"
                 },
                 { 
-                    "id": 1-1-2,
+                    "id": "1-1-2",
                     "name": "foo",
                     "syntax": "|add Cookie|%1|with value|%2|",
                     "parameters":{
@@ -43,11 +43,11 @@
                 }]
             },
             {   
-                "id": 1-2,
+                "id": "1-2",
                 "name": "CookiesKat2",
                 "children":[
                     { 
-                    "id": 1-2-1,
+                    "id": "1-2-1",
                     "name": "setVariables",
                     "syntax": "|set variables|",
                     "tableKeyword": true,
@@ -59,10 +59,10 @@
             }]
         },
         {
-            "id": 2,
+            "id": "2",
             "name": "Elements",
             "children":[{ 
-                "id": 2-1,
+                "id": "2-1",
                 "name": "addGlobal",
                 "syntax": "|add global|%1|",
                 "parameters":{
@@ -74,7 +74,7 @@
                 "helpText": "Take the result of the action (or an instance of the class) and add it as a new global to the scope."
             },
             { 
-                "id": 2-2,
+                "id": "2-2",
                 "name": "Element visible",
                 "syntax": "|element|%1|visible|",
                 "parameters":{
@@ -87,7 +87,7 @@
             }]
         },
         {
-            "id": 3,
+            "id": "3",
             "name": "addNamed",
             "syntax": "|add named|%1|%2|",
             "parameters":{
