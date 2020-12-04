@@ -50,7 +50,6 @@
                     "id": "1-2-1",
                     "name": "setVariables",
                     "syntax": "|set variables|",
-                    "tableKeyword": true,
                     "returnType": "SetVariableTraverse",
                     "helpText": "Blabla help text",
                     "tableItems": 
