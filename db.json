@@ -52,8 +52,37 @@
                     "syntax": "|set variables|",
                     "tableKeyword": true,
                     "returnType": "SetVariableTraverse",
-                    "tableItems": ["varName varValue","varName varValue comment"],
-                    "helpText": "Blabla help text"
+                    "helpText": "Blabla help text",
+                    "tableItems": 
+                        [
+                            {
+                                "name": "varName varValue",
+                                "syntax": "|%1|%2|",
+                                "parameters":{
+                                    "%1": {
+                                        "label": "variable name"
+                                    },
+                                    "%2": {
+                                        "label": "variable value"
+                                    }
+                                }   
+                            },
+                            {
+                                "name": "varName varValue comment",
+                                "syntax": "|%1|%2|%3|",
+                                "parameters":{
+                                    "%1": {
+                                        "label": "variable name"
+                                    },
+                                    "%2": {
+                                        "label": "variable value"
+                                    },
+                                    "%3": {
+                                        "label": "comment"
+                                    }
+                                }   
+                            }
+                        ]
                     }
                 ]
             }]
@@ -139,37 +168,7 @@
                         "label": "Bar"
                     }
                 }
-            }],
-        "tableBodyKeywords": 
-        [
-            {
-                "name": "varName varValue",
-                "syntax": "|%1|%2|",
-                "parameters":{
-                    "%1": {
-                        "label": "variable name"
-                    },
-                    "%2": {
-                        "label": "variable value"
-                    }
-                }   
-            },
-            {
-                "name": "varName varValue comment",
-                "syntax": "|%1|%2|%3|",
-                "parameters":{
-                    "%1": {
-                        "label": "variable name"
-                    },
-                    "%2": {
-                        "label": "variable value"
-                    },
-                    "%3": {
-                        "label": "comment"
-                    }
-                }   
-            }
-        ]
+            }]
     }
 
 
