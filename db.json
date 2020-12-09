@@ -61,7 +61,7 @@
                         [
                             {
                                 "name": "varName varValue",
-                                "syntax": "|%1|%2|",
+                                "syntax": "|bla|%1|test|%2|blub",
                                 "parameters":{
                                     "%1": {
                                         "label": "variable name",
