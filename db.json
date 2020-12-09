@@ -12,8 +12,7 @@
                     "syntax": "|element|%1|visible becomes|%2|foo|%3|",
                     "parameters":{
                         "%1": {
-                            "label": "xpath",
-                            "type": "text"
+                            "label": "xpath"
                         },
                         "%2": {
                             "label": "DropDown Value:",
