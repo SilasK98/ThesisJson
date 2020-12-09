@@ -53,9 +53,15 @@
                     { 
                     "id": 121,
                     "name": "setVariables",
-                    "syntax": "|set variables|",
+                    "syntax": "|set variables|%1|",
                     "returnType": "SetVariableTraverse",
                     "helpText": "Blabla help text",
+                    "parameters":{
+                      "%1": {
+                        "label": "Cookie Name",
+                        "type": "text"
+                       }
+                     },
                     "tableItems": 
                         [
                             {
