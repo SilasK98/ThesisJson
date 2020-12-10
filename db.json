@@ -128,18 +128,6 @@
         {
             "id": 3,
             "name": "addNamed",
-            "syntax": "|add named|%1|%2|",
-            "parameters":{
-                "%1": {
-                    "label": "xPath, Id or Locator",
-                    "type": "text"
-                },
-                "%2": {
-                    "label": "BlaBla",
-                    "type": "keyword"
-                }          
-            },
-            "helpText": "Blabla help text"
         }],
 
         
