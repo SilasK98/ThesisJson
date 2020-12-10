@@ -136,8 +136,8 @@
             "syntax": "|%1|becomes|%2|",
             "parameters":{
                 "%1": {
-                    "label": "parent keyword",
-                    "type": "text"
+                    "label": "Parent",
+                    "type": "keyword"
                 },
                 "%2": {
                     "label": "Baz",
@@ -150,8 +150,8 @@
             "syntax": "|%1|is|%2|",
             "parameters":{
                 "%1": {
-                    "label": "parent keyword",
-                    "type": "text"
+                    "label": "keyword1234",
+                    "type": "keyword"
                     },
                 "%2": {
                     "label": "Foo",
@@ -164,8 +164,8 @@
             "syntax": "|%1|contains|%2|",
             "parameters":{
                 "%1": {
-                    "label": "parent keyword",
-                    "type": "text"
+                    "label": "Foo",
+                    "type": "keyword"
                 },
                 "%2": {
                     "label": "Bar",
