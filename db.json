@@ -185,5 +185,47 @@
                     "type": "text"
                 }
             }
+        }],
+    "definedActions": 
+        [{
+            "id": 1,
+            "name": "DefinedActionsKat1",
+            "children":[{ 
+                "id": "1-1",
+                "name": "search result contact person at index",
+                "syntax": "|search result contact person at index|%1|contains person name|%2|",
+                "parameters":{
+                    "%1": {
+                        "label": "Person Index",
+                        "type": "text"
+                    },
+                    "%2": {
+                        "label": "Person Name",
+                        "type": "text"
+                    }
+                },
+                "helpText": "Search Result: Check if contact person at specific index contains person name. - E.g. use to check the order of displayed contact persons"
+            },
+            { 
+                "id": "1-2",
+                "name": "cut component at index with",
+                "syntax": "|cut component|%1|at index|%2|with|%3|",
+                "parameters":{
+                    "%1": {
+                        "label": "Component ClassName",
+                        "type": "text"
+                    },
+                    "%2": {
+                        "label": "Component Index",
+                        "type": "text"
+                    },
+                    "%3": {
+                        "label": "Type of Click ",
+                        "type": "options",
+                        "options": ["left click", "right click"]
+                    }         
+                },
+                "helpText": "Cut a component with componentClassName (e.g. subheadline) at index"
+            }]
         }]
     }
