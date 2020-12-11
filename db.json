@@ -125,8 +125,15 @@
                 "helpText": "Blabla help text"
             }]
         },
-        {
-            "id": "4"
+         {
+          "id": "3-6",
+          "name": "Matches",
+          "returnType": "void",
+          "helpText": "Take the result of the action and see whether it matches the regular expression.",
+          "deprecated": false,
+          "syntax": "|action...|\u0027\u0027\u0027matches\u0027\u0027\u0027|regular expression|",
+          "parameters": {},
+          "children": []
         }],
 
         
