@@ -132,8 +132,7 @@
           "helpText": "Take the result of the action and see whether it matches the regular expression.",
           "deprecated": false,
           "syntax": "|action...|matches|regular expression|",
-          "parameters": {},
-          "children": []
+          "parameters": {}
         }],
 
         
