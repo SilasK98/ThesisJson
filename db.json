@@ -116,7 +116,7 @@
                 "helpText": "Take the result of the action (or an instance of the class) and add it as a new global to the scope."
             },
             { 
-                "id": 22,
+                "id": "2-1",
                 "name": "Element visible",
                 "syntax": "|element|%1|visible|",
                 "parameters":{
@@ -127,6 +127,18 @@
                 },
                 "returnType": "boolean",
                 "helpText": "Blabla help text"
+            },
+            { 
+                "id": "2-2",
+                "name": "Click",
+                "syntax": "|click|%1|",
+                "parameters":{
+                    "%1": {
+                        "label": "xpath, id or other locator",
+                        "type": "text"
+                    }
+                },
+                "helpText": "Click on the given element, such as a link or button. Modified to try the second time a different click method if the first click was unsuccessful."
             }]
         }],
 
