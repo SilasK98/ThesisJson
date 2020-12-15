@@ -8,29 +8,25 @@
                 "name": "CookiesKat1",
                 "children":[{ 
                     "id": 111,
-                    "name": "addCookie",
-                    "syntax": "|cookie|%1|bar|%2|foo|%3|",
+                    "name": "Cookie Hinzufügen",
+                    "syntax": "|add cookie|%1|with value|%2|",
                     "parameters":{
                         "%1": {
-                            "label": "xpath"
+                            "label": "Cookie Name",
+                            "type": "text"
                         },
                         "%2": {
-                            "label": "DropDown Value:",
-                            "type": "options",
-                            "options":["true","false"]
-                        },
-                        "%3": {
-                            "label": "test",
+                            "label": "Cookie Wert",
                             "type": "text"
-                        } 
+                        }
                     },
-                    "returnType": "String",
+                    "returnType": "boolean",
                     "helpText": "Blabla help text"
                 },
                 { 
                     "id": 112,
-                    "name": "foo",
-                    "syntax": "|add Cookie|%1|with value|%2|",
+                    "name": "Cookie Hinzufügen (Pfad)",
+                    "syntax": "|add cookie|%1|with value|%2|and path|%3|and expiry days|%4|",
                     "parameters":{
                         "%1": {
                             "label": "Cookie Name",
@@ -40,7 +36,11 @@
                             "label": "Wert:",
                             "type": "options",
                             "options":["true","false","foo"]
-                        }        
+                        },
+                        "%1": {
+                            "label": "Cookie Name",
+                            "type": "text"
+                        },
                     },
                     "helpText": "Blabla help text",
                     "deprecated": true
