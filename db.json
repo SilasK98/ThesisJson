@@ -1,13 +1,13 @@
 {
     "keywords":
         [{
-            "id": 1,
+            "id": "1",
             "name": "Cookies",
             "children":[{   
-                "id": 11,
+                "id": "1-1",
                 "name": "CookiesKat1",
                 "children":[{ 
-                    "id": 111,
+                    "id": "1-1-1",
                     "name": "Cookie Hinzufügen",
                     "syntax": "|add cookie|%1|with value|%2|",
                     "parameters":{
@@ -24,7 +24,7 @@
                     "helpText": "Blabla help text"
                 },
                 { 
-                    "id": 112,
+                    "id": "1-1-2",
                     "name": "Cookie Hinzufügen (Pfad)",
                     "syntax": "|add cookie|%1|with value|%2|and path|%3|and expiry days|%4|",
                     "parameters":{
@@ -51,11 +51,11 @@
                 }]
             },
             {   
-                "id": 12,
+                "id": "1-2",
                 "name": "CookiesKat2",
                 "children":[
                     { 
-                    "id": 121,
+                    "id": "1-2-1",
                     "name": "setVariables",
                     "syntax": "|set variables|",
                     "returnType": "SetVariableTraverse",
@@ -101,7 +101,7 @@
             }]
         },
         {
-            "id": 2,
+            "id": "2",
             "name": "Elements",
             "children":[{ 
                 "id": "2-1",
@@ -116,7 +116,7 @@
                 "helpText": "Take the result of the action (or an instance of the class) and add it as a new global to the scope."
             },
             { 
-                "id": "2-1",
+                "id": "2-2",
                 "name": "Element visible",
                 "syntax": "|element|%1|visible|",
                 "parameters":{
@@ -129,7 +129,7 @@
                 "helpText": "Blabla help text"
             },
             { 
-                "id": "2-2",
+                "id": "2-3",
                 "name": "Click",
                 "syntax": "|click|%1|",
                 "parameters":{
@@ -140,7 +140,20 @@
                 },
                 "helpText": "Click on the given element, such as a link or button. Modified to try the second time a different click method if the first click was unsuccessful."
             }]
-        }],
+        },
+        { 
+            "id": "3",
+            "name": "URL aufrufen",
+            "syntax": "|get url|%1|",
+            "parameters":{
+                "%1": {
+                    "label": "URL",
+                    "type": "text"
+                }
+            },
+            "helpText": "Click on the given element, such as a link or button. Modified to try the second time a different click method if the first click was unsuccessful."
+        }
+    ],
 
         
     "specialKeywords": 
