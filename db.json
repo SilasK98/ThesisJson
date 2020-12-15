@@ -33,14 +33,18 @@
                             "type": "text"
                         },
                         "%2": {
-                            "label": "Wert:",
+                            "label": "Wert",
                             "type": "options",
                             "options":["true","false","foo"]
                         },
-                        "%1": {
-                            "label": "Cookie Name",
+                        "%3": {
+                            "label": "Cookie Pfad",
                             "type": "text"
                         },
+                        "%4": {
+                            "label": "Anzahl der Tage",
+                            "type": "text"
+                        }
                     },
                     "helpText": "Blabla help text",
                     "deprecated": true
@@ -105,7 +109,7 @@
                 "syntax": "|add global|%1|",
                 "parameters":{
                     "%1": {
-                        "label": "BlaBla",
+                        "label": "Angehängtes Keyword",
                         "type": "keyword"
                     }
                 },
@@ -124,15 +128,6 @@
                 "returnType": "boolean",
                 "helpText": "Blabla help text"
             }]
-        },
-         {
-          "id": "3-6",
-          "name": "Matches",
-          "returnType": "void",
-          "helpText": "Take the result of the action and see whether it matches the regular expression.",
-          "deprecated": false,
-          "syntax": "|action...|\u0027\u0027\u0027matches\u0027\u0027\u0027|regular expression|",
-          "parameters": {}
         }],
 
         
