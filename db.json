@@ -138,7 +138,8 @@
                         "type": "text"
                     }
                 },
-                "helpText": "Click on the given element, such as a link or button. Modified to try the second time a different click method if the first click was unsuccessful."
+                "helpText": "Click on the given element, such as a link or button. Modified to try the second time a different click method if the first click was unsuccessful.",
+                "returnType": "boolean"
             }]
         },
         { 
