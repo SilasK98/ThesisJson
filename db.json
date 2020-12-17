@@ -154,29 +154,7 @@
             },
             "helpText": "Retrieve the page at the url. Modified with retries and error handling. © netcare Business Solutions GmbH.",
             "returnType": "boolean"
-        },
-        { 
-            "id": "4",
-            "name": "URL aufrufen mit User und Pw",
-            "syntax": "|get url|%1|with user|%2|and pass|%3|",
-            "parameters":{
-                "%1": {
-                    "label": "URL",
-                    "type": "text"
-                },
-                "%2": {
-                    "label": "Benutzername",
-                    "type": "text"
-                },
-                "%3": {
-                    "label": "Passwort",
-                    "type": "text"
-                }
-            },
-            "helpText": "Retrieve the page at the url. Modified with retries and error handling. © netcare Business Solutions GmbH.",
-            "returnType": "boolean"
         }
-        
     ],
 
         
@@ -266,6 +244,3 @@
             }]
         }]
     }
-
-
-
