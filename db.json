@@ -106,9 +106,13 @@
             "children":[{ 
                 "id": "2-1",
                 "name": "addGlobal",
-                "syntax": "|add global|%1|",
+                "syntax": "|add global|%1|%2|",
                 "parameters":{
                     "%1": {
+                        "label": "Fooooo",
+                        "type": "text"
+                    },
+                    "%2": {
                         "label": "Angehängtes Keyword",
                         "type": "keyword"
                     }
