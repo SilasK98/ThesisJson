@@ -1,0 +1,124 @@
+{
+    "keywords":
+        [{
+            "id": 1,
+            "name": "Cookies",
+            "children":[{   
+                "id": 11,
+                "name": "CookiesKat1",
+                "children":[{ 
+                    "id": 111,
+                    "name": "addCookie",
+                    "syntax": "|element|%1|visible becomes|%2|foo|%3|",
+                    "parameters":{
+                        "%1": {
+                            "value": "xpath"
+                        },
+                        "%2": {
+                            "options":["true","false"]
+                        },
+                        "%3": {
+                            "value": "test"
+                        } 
+                    },
+                    "return": "true"
+                },
+                { 
+                    "id": 112,
+                    "name": "foo",
+                    "syntax": "|add Cookie|%1|with value|%2|",
+                    "parameters":{
+                        "%1": {
+                            "value": "Cookie Name"
+                        },
+                        "%2": {
+                            "options":["true","false","foo"]
+                        }        
+                    },
+                    "return": "true"
+                }]
+            },
+            {   
+                "id": 12,
+                "name": "CookiesKat2",
+                "children":[{ 
+                    "id": 121,
+                    "name": "withRest",
+                    "syntax": "|with rest|",
+                    "return": "false",
+                    "tableElement": "true",
+                    "tableItems": ["foo","bar"]
+                }]
+            }]
+        },
+        {
+            "id": 2,
+            "name": "Elements",
+            "children":[{ 
+                "id": 21,
+                "name": "addGlobal",
+                "syntax": "|add global|%1|",
+                "parameters":{
+                    "%1": {
+                        "keyword": "attached"
+                    }
+                },
+                "return": "false"
+            },
+            { 
+                "id": 22,
+                "name": "Element visible",
+                "syntax": "|element|%1|visible|",
+                "parameters":{
+                    "%1": {
+                        "value": "xPath, Id or Locator"
+                    }        
+                },
+                "return": "false",
+                "specialKeywords": ["becomes","is","contains"]
+            }]
+        }],
+
+        
+        "specialKeywords": 
+            [{
+                "name": "becomes",
+                "syntax": "|%1|becomes|%2|",
+                "parameters":{
+                    "%1": {
+                        "actionKeyword": "parent keyword"
+                    },
+                    "%2": {
+                        "options": ["true", "false"]
+                    }
+                }   
+            },
+            {
+                "name": "is",
+                "syntax": "|%1|is|%2|",
+                "parameters":{
+                    "%1": {
+                        "actionKeyword": "parent keyword"
+                        },
+                    "%2": {
+                        "options": ["true", "false"]
+                    }
+                }
+            },
+            {
+                "name": "contains",
+                "syntax": "|%1|contains|%2|",
+                "parameters":{
+                    "%1": {
+                        "actionKeyword": "parent keyword"
+                    },
+                    "%2": {
+                        "value": "expected value"
+                    }
+                }
+            }]
+    }
+
+
+
+
