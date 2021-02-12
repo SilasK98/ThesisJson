@@ -4,7 +4,7 @@
             "id": "4",
             "name": "Cookieeeeez",
             "children":[{   
-                "id": "4-1",
+                "id": "1-11",
                 "name": "CookiesKat1",
                 "children":[{ 
                     "id": "6-1-1",
@@ -24,7 +24,7 @@
                     "helpText": "Blabla help text"
                 },
                 { 
-                    "id": "8-1-2",
+                    "id": "1-5",
                     "name": "Cookie Hinzufügen (Pfad)",
                     "syntax": "|add cookie|%1|with value|%2|and path|%3|and expiry days|%4|",
                     "parameters":{
