@@ -2,7 +2,7 @@
     "keywords":
         [{
             "id": "4",
-            "name": "Cookieeeees",
+            "name": "Cookieeeeez",
             "children":[{   
                 "id": "4-1",
                 "name": "CookiesKat1",
@@ -55,7 +55,7 @@
                 "name": "CookiesKat2",
                 "children":[
                     { 
-                    "id": "1-2-1",
+                    "id": "3-2-1",
                     "name": "setVariables",
                     "syntax": "|set variables|",
                     "returnType": "SetVariableTraverse",
@@ -104,7 +104,7 @@
             "id": "6",
             "name": "Elements",
             "children":[{ 
-                "id": "6-3",
+                "id": "7-3",
                 "name": "addGlobal",
                 "syntax": "|add global|%1|%2|",
                 "parameters":{
