@@ -9,6 +9,7 @@
                 "children":[{ 
                     "id": "6-1-1",
                     "name": "Cookie Hinzufügen",
+                    "show": "true",
                     "syntax": "|add cookie|%1|with value|%2|",
                     "parameters":{
                         "%1": {
@@ -26,6 +27,7 @@
                 { 
                     "id": "1-5",
                     "name": "Cookie Hinzufügen (Pfad)",
+                    "show": "true",
                     "syntax": "|add cookie|%1|with value|%2|and path|%3|and expiry days|%4|",
                     "parameters":{
                         "%1": {
@@ -57,6 +59,7 @@
                     { 
                     "id": "3-2-1",
                     "name": "setVariables",
+                        "show": "true",
                     "syntax": "|set variables|",
                     "returnType": "SetVariableTraverse",
                     "helpText": "Blabla help text",
