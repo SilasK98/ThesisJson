@@ -10,6 +10,8 @@
                     "id": "6-1-1",
                     "name": "Cookie Hinzufügen",
                     "show": "true",
+                    "deprecated": false,
+                    "generated": false,
                     "syntax": "|add cookie|%1|with value|%2|",
                     "parameters":{
                         "%1": {
@@ -28,6 +30,8 @@
                     "id": "1-5",
                     "name": "Cookie Hinzufügen (Pfad)",
                     "show": "true",
+                    "deprecated": false,
+                    "generated": false,
                     "syntax": "|add cookie|%1|with value|%2|and path|%3|and expiry days|%4|",
                     "parameters":{
                         "%1": {
@@ -59,7 +63,9 @@
                     { 
                     "id": "3-2-1",
                     "name": "setVariables",
-                        "show": "true",
+                    "show": "true",
+                    "deprecated": false,
+                    "generated": false,
                     "syntax": "|set variables|",
                     "returnType": "SetVariableTraverse",
                     "helpText": "Blabla help text",
@@ -109,6 +115,9 @@
             "children":[{ 
                 "id": "7-3",
                 "name": "addGlobal",
+                "show": "true",
+                "deprecated": false,
+                "generated": false,
                 "syntax": "|add global|%1|%2|",
                 "parameters":{
                     "%1": {
@@ -125,6 +134,9 @@
             { 
                 "id": "6-11",
                 "name": "Element visible",
+                "show": "true",
+                "deprecated": true,
+                "generated": false,
                 "syntax": "|element|%1|visible|",
                 "parameters":{
                     "%1": {
@@ -138,6 +150,9 @@
             { 
                 "id": "11-3",
                 "name": "Click",
+                "show": "true",
+               "deprecated": false,
+                "generated": false,
                 "syntax": "|click|%1|",
                 "parameters":{
                     "%1": {
@@ -152,6 +167,9 @@
         { 
             "id": "15",
             "name": "URL aufrufen",
+            "show": "true",
+            "deprecated": false,
+            "generated": false,
             "syntax": "|get url|%1|",
             "parameters":{
                 "%1": {
@@ -208,48 +226,6 @@
                 }
             }
         }],
-    "definedActions": 
-        [{
-            "id": 1,
-            "name": "DefinedActionsKat1",
-            "children":[{ 
-                "id": "1-1",
-                "name": "search result contact person at index",
-                "syntax": "|search result contact person at index|%1|contains person name|%2|",
-                "parameters":{
-                    "%1": {
-                        "label": "Person Index",
-                        "type": "text"
-                    },
-                    "%2": {
-                        "label": "Person Name",
-                        "type": "text"
-                    }
-                },
-                "helpText": "Search Result: Check if contact person at specific index contains person name. - E.g. use to check the order of displayed contact persons"
-            },
-            { 
-                "id": "1-2",
-                "name": "cut component at index with",
-                "syntax": "|cut component|%1|at index|%2|with|%3|",
-                "parameters":{
-                    "%1": {
-                        "label": "Component ClassName",
-                        "type": "text"
-                    },
-                    "%2": {
-                        "label": "Component Index",
-                        "type": "text"
-                    },
-                    "%3": {
-                        "label": "Type of Click ",
-                        "type": "options",
-                        "options": ["left click", "right click"]
-                    }         
-                },
-                "helpText": "Cut a component with componentClassName (e.g. subheadline) at index"
-            }]
-        }]
     }
 
 
