@@ -1,13 +1,13 @@
 {
     "keywords":
         [{
-            "id": "5-4",
+            "id": "1",
             "name": "Cookies",
             "children":[{   
-                "id": "1-11",
+                "id": "1-1",
                 "name": "CookiesKat1",
                 "children":[{ 
-                    "id": "6-1-1",
+                    "id": "1-1-1",
                     "name": "Cookie Hinzufügen",
                     "show": "true",
                     "deprecated": false,
@@ -27,7 +27,7 @@
                     "helpText": "Blabla help text"
                 },
                 { 
-                    "id": "1-5",
+                    "id": "1-2",
                     "name": "Cookie Hinzufügen (Pfad)",
                     "show": "true",
                     "deprecated": false,
@@ -57,11 +57,11 @@
                 }]
             },
             {   
-                "id": "1-2",
+                "id": "2",
                 "name": "CookiesKat2",
                 "children":[
                     { 
-                    "id": "3-2-1",
+                    "id": "2-1",
                     "name": "setVariables",
                     "show": "true",
                     "deprecated": false,
@@ -69,7 +69,6 @@
                     "syntax": "|set variables|",
                     "returnType": "SetVariableTraverse",
                     "helpText": "Blabla help text",
-                  
                     "tableItems": 
                         [
                             {
@@ -110,7 +109,7 @@
             }]
         },
         {
-            "id": "1-6",
+            "id": "3",
             "name": "Elements",
             "children":[{ 
                 "id": "7-3",
@@ -132,7 +131,7 @@
                 "helpText": "Take the result of the action (or an instance of the class) and add it as a new global to the scope."
             },
             { 
-                "id": "6-11",
+                "id": "3-1",
                 "name": "Element visible",
                 "show": "true",
                 "deprecated": true,
@@ -148,7 +147,7 @@
                 "helpText": "Blabla help text"
             },
             { 
-                "id": "11-3",
+                "id": "3-2",
                 "name": "Click",
                 "show": "true",
                "deprecated": false,
@@ -165,7 +164,7 @@
             }]
         },
         { 
-            "id": "15",
+            "id": "4",
             "name": "URL aufrufen",
             "show": "true",
             "deprecated": false,
