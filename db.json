@@ -68,19 +68,19 @@
                     "generated": false,
                     "syntax": "|set variables|",
                     "returnType": "SetVariableTraverse",
-                    "helpText": "Blabla help text",
+                    "helpText": "Hier steht später ein Hilfstext",
                     "tableItems": 
                         [
                             {
-                                "name": "varName varValue",
-                                "syntax": "|bla|%1|test|%2|blub",
+                                "name": "Name und Wert",
+                                "syntax": "|set for|%1|set with|%2|",
                                 "parameters":{
                                     "%1": {
-                                        "label": "variable name",
+                                        "label": "Variable name",
                                         "type": "text"
                                     },
                                     "%2": {
-                                        "label": "variable value",
+                                        "label": "Variable value",
                                         "type": "text"
                                     }
                                 }   
@@ -90,15 +90,15 @@
                                 "syntax": "|%1|%2|%3|",
                                 "parameters":{
                                     "%1": {
-                                        "label": "variable name",
+                                        "label": "Variable name",
                                         "type": "text"
                                     },
                                     "%2": {
-                                        "label": "variable value",
+                                        "label": "Variable value",
                                         "type": "text"
                                     },
                                     "%3": {
-                                        "label": "comment",
+                                        "label": "Comment",
                                         "type": "text"
                                     }
                                 }   
@@ -120,7 +120,7 @@
                 "syntax": "|add global|%1|%2|",
                 "parameters":{
                     "%1": {
-                        "label": "Fooooo",
+                        "label": "Name",
                         "type": "text"
                     },
                     "%2": {
@@ -192,7 +192,7 @@
                     "type": "keyword"
                 },
                 "%2": {
-                    "label": "Baz",
+                    "label": "Value",
                     "type": "text"
                 }
             }   
@@ -202,11 +202,11 @@
             "syntax": "|%1|is|%2|",
             "parameters":{
                 "%1": {
-                    "label": "keyword1234",
+                    "label": "Parent",
                     "type": "keyword"
                     },
                 "%2": {
-                    "label": "Foo",
+                    "label": "Value",
                     "type": "text"
                 }
             }
@@ -216,11 +216,11 @@
             "syntax": "|%1|contains|%2|",
             "parameters":{
                 "%1": {
-                    "label": "Foo",
+                    "label": "Parent",
                     "type": "keyword"
                 },
                 "%2": {
-                    "label": "Bar",
+                    "label": "Value",
                     "type": "text"
                 }
             }
